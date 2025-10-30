@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 10px;
+}
+
+/* Estilo para o ícone fixo */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; /* Cor do WhatsApp */
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000; /* Fixa o ícone na frente de outros elementos */
+}
+
+/* Efeito ao passar o mouse */
+.whatsapp-icon:hover {
+    background-color: #128c7e;
+}
+
+
+.curriculo{
+    display: flex;
+}
+
+.port{
+    background-color: #fde3ff;
+    padding: 30px;
+    width: auto;
+    padding-left: 250px;
+    padding-right: 2px;
+}
+
+.port h1{
+    font-family: "Fjalla One", serif;
+    font-weight: 400px;
+    font-style: normal;
+    
+}
+
+.textme p{
+    margin: 12px;
+    font-family: "Red Hat Display", serif;
+    font-style: normal;
+}
+
+
+.square{
+    background-color: #fde3ff;
+    padding-bottom: 20px;
+}
+
+.services h1{
+    margin: 20px;
+    text-align: center;
+        font-family: "Fjalla One", serif;
+    
+
+}
+
+.services p{
+    text-align: center;
+}
+
+.oferecimento{
+    display: flex;
+    font-family: "Red Hat Display", serif;
+    justify-content: space-between;
+
+}
+
+.criancas{
+justify-content: space-between;
+}
+
+.animais{
+justify-content: space-between;
+}
+
+.midia{
+    margin: 30px;
+/*
+    justify-content: center;
+    align-items: center;
+    display: flex;
+*/
+}
+
+
+.viideo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apt p{
+    text-align: center;
+    font-family: "Red Hat Display", serif;
+    justify-content: space-between;
+    color: #a39898;
+    margin-bottom: 100px;
+}
+
+footer{
+    width: auto;
+    background-color: #fde3ff;
+}
+
+.rodape h1{
+
+        font-family: "Fjalla One", serif;
+    color: white;
+    padding: 15px;
+}
+
+/*
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #444;
+  padding: 20px;
+}
+*/
+
+.alonso {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alonso h1 {
+  text-align: center;
+  color: #ff69b4;
+}
+
+.alonso h2{
+    text-align: center;
+  color: #ff69b4;
+    font-family: "Fjalla One", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+    font-family: "Red Hat Display", serif;
+    font-style: normal;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+    font-family: "Red Hat Display", serif;
+    font-style: normal;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.stars span {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.stars span.selected,
+.stars span:hover,
+.stars span:hover ~ span {
+  color: #ffd700;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+#reviews {
+  margin-top: 20px;
+}
+
+.review {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.review p {
+  margin: 5px 0;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+}
+
+.sem p{
+    font-family: "Red Hat Display", serif;
+    font-style: normal;
+}
+
+.contato{
+    display: flex;
+
+}
+
+.ajt1{
+    padding: 10px;
+}
+
+.ajt2{
+    padding: 10px;
+}
+
+.ajt3{
+    padding: 10px;
+}
+
+.ajt4{
+    padding: 10px;
+}
+
+.aviso{
+    margin: 15px;
+    font-family: "Red Hat Display", serif;
+}
+
+.design{
+    margin: 15px;
+    font-family: "Red Hat Display", serif;
+}
